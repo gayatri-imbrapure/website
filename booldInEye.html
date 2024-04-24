@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive navigation bar - Bedimcode</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            <!-- <i class="ri-code-s-slash-line"></i> CodeBox -->
+            <img
+              src="assets/clear+vision+logo+update+1+transparent.png"
+              alt="logo"
+              style="max-width: 40%; height: auto"
+            />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__toggle-menu"></i>
+            <i class="ri-close-line nav__toggle-close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Our Services<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-flashlight-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Retinal Services</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Diabetic Retinopathy</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Retinal Detachment</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-heart-3-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Anemia</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Take Free Test</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Consult Doctor</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--=============== DROPDOWN 2 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Our Centers<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-code-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Our Doctors</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Dr. Sony Kadiyala MBBS, MS</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">
+                          Dr. Jyothi Kiran Velivela MBBS, DO</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Dr. Varanasi Shyam Savith MBBS, MS, FAGE, FMRF</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Dr. Tanguturu Viswa Saran Reddy MBBS, MS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-apps-2-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">City</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Mumbai</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Pune</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Delhi</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Dehradhun</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-pen-nib-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Appointment</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Book Now</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Eye Symptoms<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-code-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Symptoms</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Blood in Eye</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"> Booldshot Eye</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Burning Eyes</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Eyelid Redness and Rashes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Red Eye</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Blurry vision</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="dropdown__link">Blind spots</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Flashes and Floaters</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Temporary Darkening of Vision</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Clear Vision<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-community-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">About us</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">About us</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Support</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-shield-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Care</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Prevent Eye Problems</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"
+                          >Improve Your Vision</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+        <div id="main">
+           <p>Hello World</p>
+        </div>
+    </main>
+   
+    
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>

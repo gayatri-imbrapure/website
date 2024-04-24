@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive navigation bar - Bedimcode</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            <!-- <i class="ri-code-s-slash-line"></i> CodeBox -->
+            <img
+              src="assets/clear+vision+logo+update+1+transparent.png"
+              alt="logo"
+              style="max-width: 40%; height: auto"
+            />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__toggle-menu"></i>
+            <i class="ri-close-line nav__toggle-close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Our Services<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+              
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-heart-3-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Anemia</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Take Free Test</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Consult Doctor</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--=============== DROPDOWN 2 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Our Centers<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-apps-2-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">City</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Mumbai</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Pune</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Delhi</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Dehradhun</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-pen-nib-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Appointment</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">Book Now</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Eye Symptoms<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-code-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Symptoms</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link" id="bloodInEyeLink"
+                          >Blood in Eye</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"id="burningEyes">Burning Eyes</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link" id="eyeLidRedRash"
+                          >Eyelid Redness and Rashes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"id="redEye">Red Eye</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"id="blurryEye">Blurry vision</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="dropdown__link"id="blindSpot">Blind spots</a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="dropdown__link"id="flashesFloaters"
+                          >Flashes and Floaters</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link"id="tempDark"
+                          >Temporary Darkening of Vision</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Clear Vision<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <div class="dropdown__container">
+                <div class="dropdown__content">
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-community-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">About us</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="#" class="dropdown__link">About us</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Support</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown__link">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown__group">
+                    <div class="dropdown__icon">
+                      <i class="ri-shield-line"></i>
+                    </div>
+
+                    <span class="dropdown__title">Eye Care</span>
+
+                    <ul class="dropdown__list">
+                      <li>
+                        <a href="improveVision.html" class="dropdown__link"
+                          >Improve Your Vision</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+         
+        <p>This is eye test page Please upload your image here..</p>
+
+        <form id="inputForm">
+    
+            <div class="content">
+                <div class="content__grid">
+                    <div class="col-12-s6-m4" id="method">
+                        <label class="input__label">Upload Method</label>
+                        <div>
+                            <button data-value="upload" id="computerButton" class="bttn left fill active">Upload</button>
+                            <button data-value="url" id="urlButton" class="bttn right fill">URL</button>
+                        </div>
+                    </div>
+    
+                    <div class="col-12-m8" id="fileSelectionContainer">
+                        <label class="input__label" for="file">Select File</label>
+                        <div class="flex">
+                            <input class="input input--left flex-1" type="text" id="fileName" disabled />
+                            <button id="fileMock" class="bttn right active">Browse</button>
+                        </div>
+                        <input style="display: none;" type="file" id="file" />
+                    </div>
+    
+                    <div class="col-12-m8" id="urlContainer">
+                        <label class="input__label" for="file">Enter Image URL</label>
+                        <div class="flex">
+                            <input type="text" id="url" placeholder="https://path.to/your.jpg" class="input"/><br>
+                        </div>
+                    </div>
+                    
+                                <div class="col-12">
+                        <button type="submit" value="Run Inference" class="bttn__primary">Run Inference</button>
+                        <br>
+                        <br>
+                        <div class="col-6-m3" id="format">
+                            <label class="input__label">Inference Result</label>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="result" id="resultContainer">
+                    <div class="divider"></div>
+                    <div class="result__header">
+                        <h3 class="headline">Result</h3>
+                       
+                    </div>
+                    <pre id="output" class="codeblock"> here is your json </pre>
+                    
+                    
+                </div> -->
+
+                <div id="resultContainer" class="result-container">
+                    
+                    <!-- <div class="result__header">
+                      <h3>Result</h3>
+                    </div> -->
+                    <div class="card" >
+                        <pre id="output" class="codeblock"> here is your json </pre>
+                        <div class="test-taken">
+                            <p id="testDate"></p>
+                        </div>
+                        
+                        <div id="load" class="spinner"style="display:none ;">
+                            <img src="Loading_2.gif" alt="loading"style="width: 50px; height: 50px;">
+                        </div>
+
+                        <button class="green-btn" id="retakeButton">Retake Test</button>
+                        
+                    </div>
+                   
+                  </div>
+                  
+
+                
+            </div>
+        </form>
+
+        <div class="hide">
+        <div class="card" id="bloodInEyeCard" style="display: none;">
+            <div class="card-content">
+              <h2>Blood in Eye</h2>
+              <p>TBlood in the eye, also known as hyphema, can be a medical emergency and requires immediate care. It can be caused by trauma to the eye, such as a sports injury, or medical conditions that affect blood, such as leukemia, hemophilia, and diabetes. Hyphema can cause blood to collect behind the cornea and iris</p>
+              <br>
+              <p>Blood in Eye may be associated with: </p>
+                <ul class="disease">
+                    <li>Black Eye</li>
+                    <li>Corneal Ulcer</li>
+                    <li>Blepharitis</li>
+                    <li>Conjunctivitis ("Pink Eye")</li>
+                    <li>Corneal Laceration</li>
+                    <li>Hyphema</li>
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="burningEyesCard" style="display: none;">
+            <div class="card-content">
+              <h2>Burning Eyes</h2>
+              <p>Burning eyes is a stinging or irritating sensation in the eyes that may be caused by many different reasons, including allergies, infections, chemical irritants, and low humidity.</p>
+              <br>
+              <p>Burning Eyes may be associated with: </p>
+                <ul class="disease">
+                    <li>COVID-19</li>
+                    <li>Conjunctivitis ("Pink Eye")</li>
+                    <li>Eye Syndrome</li>
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="eyeLidRedRashCard" style="display: none;">
+            <div class="card-content">
+              <h2>Eyelid Redness and Rashes</h2>
+              <p>Redness and rashes around the eyes can have many causes, including skin conditions, infections, and health issues. A type of contact dermatitis called eyelid dermatitis, also known as eyelid eczema, can cause redness, irritation, and swelling of the eyelids. Other symptoms include stinging, burning, itching, and skin that becomes scaly</p>
+              <br>
+              <p>Eyelid Redness and Rashes may be associated with: </p>
+                <ul class="disease">
+                    <li>Dermatitis</li>
+                    <li>Eczema</li>
+                    <li>Blepharitis</li>
+                    <li>Eye Anemia</li>
+                    
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+
+          <div class="card" id="redEyeCard" style="display: none;">
+            <div class="card-content">
+              <h2>Red Eye</h2>
+              <p>Red eyes, or bloodshot eyes, are often caused by swollen or dilated blood vessels on the surface of the eye, which can be due to irritation or disease. This can happen in one or both eyes, and can develop over time or appear suddenly.</p>
+              <br>
+              <p>Red Eye may be associated with: </p>
+                <ul class="disease">
+                    <li>Conjunctivitis</li>
+                    <li>Scleritis</li>
+                    <li>Blepharitis</li>
+                    <li>Angle-closure glaucoma</li>
+                    
+                    
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="blurryEyeCard" style="display: none;">
+            <div class="card-content">
+              <h2>Blurry Vision</h2>
+              <p>Blurry vision is when your vision isn't sharp and crisp, and objects appear hazy or out of focus. It can be caused by many things, including eye conditions, medical conditions, or side effects of certain medicines</p>
+              <br>
+              <p>Blurry Vision may be associated with: </p>
+                <ul class="disease">
+                    <li>Diabetes</li>
+                    <li>Stroke</li>
+                    <li>Glaucoma</li>
+                    <li>Eye Anemia</li>
+                    
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="blindSpotCard" style="display: none;">
+            <div class="card-content">
+              <h2>Blind Spots</h2>
+              <p>A blind spot in the eye, also known as a scotoma, can be caused by damaged retina. A growing blind spot can be a sign of retinal detachment, which occurs when the layers of the retina separate, causing vision loss. Prompt surgery is required to prevent blindness in the eye</p>
+              <br>
+              <p>Blind Spots may be associated with: </p>
+                <ul class="disease">
+                    <li>Macular degeneration</li>
+                    <li>Scotoma</li>
+                    <li>Eye Anemia</li>
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="flashesFloatersCard" style="display: none;">
+            <div class="card-content">
+              <h2>Flashes and Floaters</h2>
+              <p>Flashes and floaters in the eyes are usually caused by a normal process called posterior vitreous detachment (PVD), where the gel inside the eye changes. This process can be caused by aging, eye injuries, or other diseases or conditions. Flashes occur when the vitreous pulls on the retina, while floaters are caused by tiny clumps of gel or cells inside the vitreous</p>
+              <br>
+              <p>Flashes and Floaters may be associated with: </p>
+                <ul class="disease">
+                    <li>Retinal tear</li>
+                    <li>Retinal detachment </li>
+                    <li>Eye Anemia</li>
+                    
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+
+          <div class="card" id="tempDarkCard" style="display: none;">
+            <div class="card-content">
+              <h2>Temporary Darkening of Vision</h2>
+              <p>Amaurosis fugax refers to a temporary black-out of vision. This is usually affects one eye, is painless, and is often described like a "shade coming down over the vision" of that eye. The black-out may last minutes, and then the vision returns</p>
+              <br>
+              <p>Temporary Darkening of Vision may be associated with: </p>
+                <ul class="disease">
+                    <li>Retinal detachment</li>
+                    <li>Migraines</li>
+                    <li>Papilledema</li>
+                    <li>Amaurosis fugax</li>
+                    <li>Retinal vein occlusion</li>
+                    <li>Retinal migraine</li>
+                </ul>
+              <!-- Add more information as needed -->
+            </div>
+          </div>
+
+        </div>
+
+
+
+          
+    </main>
+        
+          
+    
+    
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script>
+
+//     // Get the link for "Blood in Eye" by its id
+//     var bloodInEyeLink = document.getElementById('bloodInEyeLink');
+//     // Get the card element
+//     var bloodInEyeCard = document.getElementById('bloodInEyeCard');
+
+//     // Add click event listener to the link
+//     bloodInEyeLink.addEventListener('click', function (event) {
+//         // Prevent the default link behavior
+//         event.preventDefault();
+//         // Display the card
+//         bloodInEyeCard.style.display = 'block';
+//     });
+
+//     var dropdownLinks = document.querySelectorAll('.dropdown__link');
+
+//     // Add click event listener to each dropdown link
+//     dropdownLinks.forEach(function(link) {
+//         link.addEventListener('click', function(event) {
+//             // Check if the clicked link is not the "Blood in Eye" link
+//             if (link !== bloodInEyeLink) {
+//                 // Hide the card
+//                 bloodInEyeCard.style.display = 'none';
+//             }
+//         });
+//     });
+// });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Define an object to store link IDs and their corresponding card IDs
+    var linkCardMap = {
+        'bloodInEyeLink': 'bloodInEyeCard',
+        'burningEyes': 'burningEyesCard',
+        'eyeLidRedRash': 'eyeLidRedRashCard',
+        'redEye': 'redEyeCard',
+        'blurryEye': 'blurryEyeCard',
+        'blindSpot': 'blindSpotCard',
+        'flashesFloaters': 'flashesFloatersCard',
+        'tempDark': 'tempDarkCard'
+    };
+
+    // Add click event listener to each link
+    Object.keys(linkCardMap).forEach(function(linkId) {
+        var link = document.getElementById(linkId);
+        var card = document.getElementById(linkCardMap[linkId]);
+
+        link.addEventListener('click', function(event) {
+            // Prevent the default link behavior
+            event.preventDefault();
+            // Display the corresponding card
+            console.log(link.textContent + ' link clicked!');
+            showCard(card);
+        });
+    });
+
+    // Function to display a card
+    function showCard(card) {
+        // Hide all cards first
+        var allCards = document.querySelectorAll('.card');
+        allCards.forEach(function(c) {
+            c.style.display = 'none';
+        });
+
+        // Display the specified card
+        card.style.display = 'block';
+    }
+});
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
